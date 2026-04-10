@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+#root {
+    background-color: black;
+    height: 100%;
+    font-family: "DOS";
+}
+
+body {
+    background-color: black;
+    font-family: "DOS";
+}
+
+@font-face {
+    font-family: "DOS";
+    src: local("DOS"),
+    url("./assets/fonts/DOS.ttf") format("truetype");
+}
